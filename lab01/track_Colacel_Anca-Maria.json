@@ -1,0 +1,19 @@
+{
+  "device_context": {
+    "browser": "Chrome 154.0.0",
+    "device_type": "Desktop",
+    "os": "Windows 10",
+    "raw_user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36"
+  },
+  "network": {
+    "ip_address": "127.0.0.1"
+  },
+  "run_info": {
+    "timestamp": 1791463138,
+    "verification_hash": "babb85c5ef49"
+  },
+  "student": "Colacel Anca-Maria",
+  "user_preferences_implicit": {
+    "preferred_language": "en-US"
+  }
+}
