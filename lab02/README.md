@@ -35,9 +35,9 @@ Coloana `isbn13` este utilizată ca **itemId** în Recombee (identificator unic 
 lab02/
 ├── books.csv                 # Dataset-ul CSV cu 6810 cărți
 ├── recombee_properties.py    # Script Python pentru înregistrarea proprietăților în Recombee
-├── README.md                 # Documentația proiectului (acest fișier)
-└── ro/
-    └── README.md             # Ghidul laboratorului (instrucțiuni)
+├── .env.example              # Model pentru fișierul de variabile de mediu
+├── .env                      # Fișierul local cu credențiale (ignorat de git)
+└── README.md                 # Documentația proiectului (acest fișier)
 ```
 
 ## Rulare
@@ -45,10 +45,23 @@ lab02/
 ### 1. Instalare dependențe
 
 ```bash
-pip install recombee-api-client pandas
+pip install recombee-api-client pandas python-dotenv
 ```
 
-### 2. Executare script
+### 2. Configurare credențiale
+
+Creați fișierul `.env` pornind de la modelul `.env.example`:
+```bash
+cp .env.example .env
+```
+Completați datele din contul Recombee (Admin UI → Settings → API Logins):
+```env
+RECOMBEE_DB_NAME=upb-univ-dev
+RECOMBEE_PRIVATE_TOKEN=tokenul_tau_privat
+```
+*(Notă: Fișierul `.env` este adăugat în `.gitignore` pentru a proteja cheile private de acces).*
+
+### 3. Executare script
 
 ```bash
 cd lab02

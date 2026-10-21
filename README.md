@@ -13,7 +13,7 @@ Acest repository conține rezolvările și temele practice realizate în cadrul 
 ### 🔹 [Laboratorul 02: Recombee — Definire Proprietăți Catalog](lab02/)
 - **Descriere:** Integrarea platformei Recombee și crearea schemei de date pentru un catalog de cărți.
 - **Dataset:** `books.csv` (6.810 cărți cu atribute precum autor, rating, descriere, categorii, pagini).
-- **Fișiere:** Script API (`recombee_properties.py`), model variabile de mediu (`.env.example`) și documentația aferentă (`README.md`).
+- **Fișiere:** Script API (`recombee_properties.py`), configurare variabile de mediu (`.env` / `.env.example`) și documentația aferentă (`README.md`).
 
 ---
 
